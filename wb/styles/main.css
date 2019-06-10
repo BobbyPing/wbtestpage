@@ -1,0 +1,29 @@
+body{ 
+    background-color: black;
+   }
+
+.header{
+    background-image: url("../images/bank-notes-blur-close-up-164474.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 800px;
+    width: 100vw;
+    margin-left: -8px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-block{
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.45)
+}
